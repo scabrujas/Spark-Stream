@@ -14,19 +14,19 @@
     - On a separe terminal check the data, run `kafka-console-consumer --bootstrap-server localhost:9092 --topic police.service.calls --from-beginning`   
    
    Output will be:
-   <img src='console_consumer.PNG'/>
+   <img src='https://github.com/scabrujas/Spark-Stream/blob/master/console_consumer.png'/>
 
 5. Run consumer:
     - Run `python consumer_server.py`
    
    Output will be:
-   <img src='consumer_server.PNG'/>
+   <img src='https://github.com/scabrujas/Spark-Stream/blob/master/consumer_server.png'/>
 
 6. Run Streaming Application:
      - Run `spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local[*] data_stream.py`
    
    Output will be:
-   <img src='spark.PNG'/>
+   <img src='https://github.com/scabrujas/Spark-Stream/blob/master/spark.png'/>
 
 
 Answer to the questions:
